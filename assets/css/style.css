@@ -1,0 +1,75 @@
+@font-face{
+    font-family: "DragonQuest";
+    src: url("../fonts/dragon-warrior-iii.ttf");
+}
+
+body{
+    color: white;
+    background-color: black;
+    font-family: "DragonQuest";
+}
+
+img{
+    max-width: 25%;
+    margin: 0.5rem;
+}
+
+object{
+    
+    width: 2rem;
+}
+
+progress{
+    border: solid 1px white;
+    border-radius: 0px;
+    margin-top: 1rem;
+}
+progress::-webkit-progress-bar
+{
+    background: none;
+}
+progress::-webkit-progress-value{
+    background-color: red;
+}
+
+.container{
+    width:70vw;
+    border: solid white;
+    margin: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-enemy{
+    text-align: center;
+    background: url("../img/background.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.textbox{
+    text-align: center;
+    padding: 1rem;
+}
+
+.container-hero{
+    border: solid white;
+    margin: 2rem;
+    display: flex;
+}
+
+.iconHero{
+    text-align: center;
+    width: 50%;
+}
+.statHero, .statHero2{
+    padding: 2rem;
+    width: 25%;
+
+}
+
+.textbox{
+    border:solid white;
+    margin: 2rem;
+
+}
